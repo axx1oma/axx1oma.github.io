@@ -2,12 +2,11 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-
 var telegram_colors = {
 	text_color:(--tg-theme-button-text-color),
 	button_text_color:(--tg-theme-button_text_color)
 }
-
+	
 tg.MainButton.textColor = telegram_colors.text_color;
 tg.MainButton.color = telegram_colors.button_text_color;
 
